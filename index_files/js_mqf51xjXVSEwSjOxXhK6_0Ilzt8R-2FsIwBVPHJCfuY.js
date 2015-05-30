@@ -9867,12 +9867,12 @@ window.shower&&window.shower.init||(window.shower=function(a,b){function c(a){fo
   Drupal.behaviors.promokitPresentationEditButton = {
     attach: function (context, settings) {
 
-      renderEditLink();
-
-      // Rerender the edit link when key pressed to always have link to the relevant slide in the dashboard.
-      $(document).keydown(function(e) {
-        renderEditLink();
-      });
+      //renderEditLink();
+      //
+      //// Rerender the edit link when key pressed to always have link to the relevant slide in the dashboard.
+      //$(document).keydown(function(e) {
+      //  renderEditLink();
+      //});
     }
   };
 
